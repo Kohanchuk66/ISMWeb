@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 1200px;
+}
+#container{
+
+}
+header{
+    background: lightgrey;
+    height: 40px;
+    line-height: 40px;
+}
+main{
+}
+footer{
+    height: 320px;
+    padding-top: 25px;
+}
+header nav ul{
+    list-style-type: none;
+    float: left;
+}
+header nav ul li{
+    margin-left: 5px;
+    display: inline;
+    float: left;
+}
+.account{
+    margin-left: 67%;
+    display: inline-block;
+ }
+.butt{
+    background: dodgerblue;
+    color: white;
+    border: 0;
+    display: inline-block;
+    margin-top: 5px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.number{
+    color: dodgerblue;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    margin: 20px 0 0 100px;
+}
+.grey{
+    color: darkgray;
+    font-size: 17px;
+}
+.fl-right{
+    float: right;
+}
+.title-content{
+    display: flex;
+    width: 1050px;
+    height: 275px;
+    margin: 20px 0 0 100px;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+.foto-cont1{
+    width:230px;
+    height: 230px;
+    margin-right: 17px;
+    background: lightgrey;
+}
+.sec-foto-form{
+    display: flex;
+    justify-content: space-between;
+
+}
+.txt-cont1{
+    height: 250px;
+    width:600px;
+}
+.pading{
+    padding: 10px;
+    padding-top: 20px;
+}
+.input{
+    width: 90%;
+    margin-bottom: 25px;
+    height: 30px;
+}
+.label{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    width: 1085px;
+    height: 1000px;
+    margin: 20px 0 0 100px;
+}
+.gallery-img{
+    width: 280px;
+    height: 320px;
+    padding-top: 10px;
+
+}
+.gallery-element{
+    width: 320px;
+    height: 470px;
+    border: 1px solid gray;
+    padding: 13px;
+}
+.load-button{
+    width: 1044px;
+    margin: 20px 0 0 100px;
+    height: 50px;
+    border: 1px solid gray;
+    background: none;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1200px;
+    height: 250px;
+    background: lightgray;
+    padding-top: 20px;
+}
+.footer-nav-padding{
+    padding-top: 7px;
+    padding-left: 10px;
+
+}
+.footer-first-nav{
+    list-style-type: none;
+    margin: 10px;
+}
+.logo{
+    height: 15px;
+    width: 15px;
+}
+.partners{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+.copyright{
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 10px;
+}
