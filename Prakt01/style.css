@@ -1,1 +1,62 @@
-.
+.nobord{
+    border-collapse: collapse;
+}
+.text{
+    text-align: center;
+}
+
+table, td, th{
+    border: 1px solid lightgray;
+}
+.black-bord{
+     border: 1px solid black;
+ }
+.darkviolet{
+    background: darkviolet;
+}
+.pink{
+    background: pink;
+}
+.yellow{
+    background: yellow;
+
+}
+.blue{
+    background: lightblue;
+}
+.green{
+    background: green;
+}
+.darkblue{
+    background: blue;
+}
+.black{
+    background: black;
+    color: white;
+}
+.orangetxt{
+    color: orangered;
+}
+.violet{
+    background: violet;
+}
+.textright{
+    text-align: right;
+}
+.red{
+    background: red;
+}
+.PaleGreen{
+    background: palegreen;
+    padding: 10px;
+}
+.bordbr{
+    border: 2px solid brown;
+
+ }
+.whitetxt{
+    color: white;
+}
+.yellowtxt{
+    color: yellow;
+}
